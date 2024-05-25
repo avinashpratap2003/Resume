@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Foldit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    width: 1200px;
+    margin: 0 auto;
+}
+hr{
+    width:100%;
+    text-align:center;
+    margin-top: -1rem;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7489f0fd;
+    color: white;
+}
+header div{
+    margin-top: -1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+header div p{
+    display: flex;
+    text-decoration: none;
+}
+header div a{
+   color: rgb(4, 4, 89);
+   /* margin-top: -0.5rem; */
+}
+header div a:hover{
+   color: white;
+   
+}
+.about-section p{
+    font-style: italic;
+}
+.education-section div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1.5rem;
+    font-style: italic;
+    margin-right: 2rem;
+}
+.skills-section{
+    margin-top: -1rem;
+}
+.skills-section li{
+    display: flex;
+    align-items: center;
+    row-gap: -1rem;
+    margin-top: -1rem;
+}
+.para1{
+    margin-left: 18rem;
+}
+.para2{
+    margin-left: 17.8rem;
+}
+.para3{
+    margin-left: 18.6rem;
+}
+.para4{
+    margin-left: 3.2rem;
+}
+.skills-section span{
+    font-weight: 700;
+    
+}
+.experience-section h3 a{
+    color: #7489f0fd;
+    text-decoration: none;
+}
+.text-apnadotcom a:hover{
+   color: rgba(255, 68, 0, 0.696);
+}
+.text-apnadotcom span{
+   color: black;
+   font-weight: 500;
+}
+.projects-section h3 a{
+    color: #7489f0fd;
+    text-decoration: none;
+}
